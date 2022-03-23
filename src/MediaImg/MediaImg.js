@@ -1,5 +1,5 @@
 import { forwardRef } from "react";
-import { cx, css } from "@emotion/csss";
+import { cx, css } from "@emotion/css";
 import { PropTypes } from "prop-types"
 
 const MediaImgStyles = (width, height, borderRadius) => css`
