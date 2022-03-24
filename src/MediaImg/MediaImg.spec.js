@@ -8,7 +8,7 @@ describe('@components/MediaImg', () => {
       <MediaImg alt="PlatziCoolImg" src="http://www.platziversosupercool.com/img" />
     );
     //act
-    const MediaImgTest = getByRole('img')
+    const MediaImgTest = getByRole('img');
     //assert
     expect(MediaImgTest).toBeInTheDocument();
     expect(MediaImgTest).toHaveAttribute("src", "http://www.platziversosupercool.com/img")
